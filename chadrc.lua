@@ -6,7 +6,9 @@ M.ui = {
   tabufline = {
     enabled = false
   },
-  theme = "rosepine",
+  theme = "tokyonight",
 }
+
+M.mappings = require "custom.mappings"
 
 return M
