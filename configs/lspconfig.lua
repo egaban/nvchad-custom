@@ -13,7 +13,9 @@ local servers = {
       }
     }
   },
-  gopls = {}
+  gopls = {},
+  html = {},
+  rust_analyzer = {},
 }
 
 for server, settings in pairs(servers) do
